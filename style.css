@@ -14,8 +14,8 @@ body {
 
 .face {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
   border-radius: 50%;
   background: #ffcd00;
   display: flex;
@@ -26,19 +26,19 @@ body {
 .face::before {
   content: "";
   position: absolute;
-  top: 180px;
-  width: 150px;
-  height: 70px;
+  top: 1.125rem;
+  width: 9.375rem;
+  height: 4.375rem;
   background: #b57700;
-  border-bottom-left-radius: 70px;
-  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 4.375rem;
+  border-bottom-right-radius: 4.375rem;
   transition: 0.5s;
 }
 
 .face:hover::before {
-  top: 210px;
-  width: 150px;
-  height: 20px;
+  top: 13.125rem;
+  width: 9.375rem;
+  height: 1.25rem;
   background: #b57700;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -46,27 +46,28 @@ body {
 
 .eyes {
   position: relative;
-  top: -40PX;
+  top: -2.5rem;
   display: flex;
 }
 
 .eyes .eye {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   display: block;
   background: #fff;
-  margin: 0 15px;border-radius: 50%;
+  margin: 0 0.9375rem;
+  border-radius: 50%;
 }
 
 .eyes .eye::before {
   content: "";
   position: absolute;
   top: 50%;
-  left: 25px;
+  left: 1.5625rem;
   transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   background: #333;
   border-radius: 50%;
 }
